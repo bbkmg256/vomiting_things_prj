@@ -1,0 +1,756 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"en",
+				"endblocktranslate"
+			],
+			[
+				"ST",
+				"STATUS_PRODUCTION"
+			],
+			[
+				"STATUS_",
+				"STATUS_DEVELOPMENT"
+			],
+			[
+				"STATUS",
+				"STATUS_DRAFT"
+			],
+			[
+				"match",
+				"match"
+			],
+			[
+				"trad",
+				"trad_estado"
+			],
+			[
+				"get",
+				"gettext_lazy"
+			],
+			[
+				"data",
+				"data_label"
+			],
+			[
+				"tra",
+				"traducir_pagina"
+			],
+			[
+				"u",
+				"utils"
+			],
+			[
+				"wr",
+				"write"
+			],
+			[
+				"st",
+				"stdout"
+			],
+			[
+				"Ex",
+				"Exception"
+			],
+			[
+				"s",
+				"SUCCESS"
+			],
+			[
+				"wri",
+				"write"
+			],
+			[
+				"S",
+				"SUCCESS"
+			],
+			[
+				"r",
+				"RunPython"
+			],
+			[
+				"call",
+				"call_command"
+			],
+			[
+				"dj",
+				"django"
+			],
+			[
+				"se",
+				"session"
+			],
+			[
+				"login",
+				"login_required"
+			],
+			[
+				"log",
+				"login_required"
+			],
+			[
+				"max",
+				"max_length="
+			],
+			[
+				"make",
+				"make_password"
+			],
+			[
+				"loa",
+				"load_dotenv"
+			],
+			[
+				"h",
+				"HttpResponse"
+			],
+			[
+				"fo",
+				"form"
+			],
+			[
+				"Http",
+				"HttpResponse"
+			],
+			[
+				"requ",
+				"request"
+			],
+			[
+				"re",
+				"render"
+			],
+			[
+				"Htt",
+				"HttpResponse"
+			],
+			[
+				"py",
+				"basedpyright"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "manage.py",
+			"settings":
+			{
+				"buffer_size": 804,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"com",
+				"Toggle Comment"
+			],
+			[
+				"commen",
+				"Toggle Block Comment"
+			],
+			[
+				"comm",
+				"Toggle Comment"
+			],
+			[
+				"comment",
+				"Toggle Block Comment"
+			],
+			[
+				"comme",
+				"Toggle Comment"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"come",
+				"Set Syntax: Git Commit Message"
+			],
+			[
+				"COMME",
+				"Toggle Comment"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"rename",
+				"File: Rename File"
+			],
+			[
+				"renam",
+				"File: Rename File"
+			],
+			[
+				"toggle",
+				"LSP: Toggle Log Panel"
+			],
+			[
+				"settings",
+				"Preferences: Settings"
+			],
+			[
+				"lsp",
+				"LSP: Toggle Log Panel"
+			],
+			[
+				"upper",
+				"Convert Case: Upper Case"
+			],
+			[
+				"color",
+				"UI: Select Color Scheme"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"LSP:",
+				"LSP: Enable Language Server in Project"
+			],
+			[
+				"LSP",
+				"LSP: Toggle Inlay Hints"
+			],
+			[
+				"LSP: in",
+				"LSP: Toggle Inlay Hints"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Channel"
+			],
+			[
+				"LSP: e",
+				"LSP: Enable Language Server in Project"
+			],
+			[
+				"LSP: Ena",
+				"LSP: Enable Language Server in Project"
+			],
+			[
+				"setting",
+				"Preferences: LSP Settings"
+			],
+			[
+				"theme",
+				"UI: Select Color Scheme"
+			],
+			[
+				"LSP: Enable Language Server In Project",
+				"LSP: Enable Language Server in Project"
+			],
+			[
+				"ruff",
+				"Preferences: LSP-ruff Settings"
+			],
+			[
+				"line",
+				"LineJumper: Move down lines"
+			],
+			[
+				"slit",
+				"File: Split View"
+			],
+			[
+				"INSTALL",
+				"Package Control: Install Package"
+			],
+			[
+				"sett",
+				"Preferences: Settings"
+			],
+			[
+				"tehe",
+				"UI: Select Theme"
+			],
+			[
+				"setti",
+				"Preferences: Settings"
+			],
+			[
+				"packa",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 234.0,
+		"history":
+		[
+			"ls",
+			"help"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/bbkmg/Escritorio/mis_proyectos/vomiting_things_prj"
+	],
+	"file_history":
+	[
+		"/home/bbkmg/Escritorio/AnlyticsProjects/plataforma_principal/v_actual/AnalyticsDevsConsulting/frontend/templates/frontend/home.html",
+		"/home/bbkmg/Escritorio/AnlyticsProjects/plataforma_principal/v_actual/AnalyticsDevsConsulting/frontend/templates/frontend/inicio.html",
+		"/home/bbkmg/Escritorio/AnlyticsProjects/plataforma_principal/v_actual/AnalyticsDevsConsulting/locale/en/LC_MESSAGES/django.po",
+		"/home/bbkmg/Escritorio/AnlyticsProjects/plataforma_principal/v_actual/AnalyticsDevsConsulting/frontend/templates/frontend/contacto.html",
+		"/home/bbkmg/Escritorio/AnlyticsProjects/plataforma_principal/v_actual/AnalyticsDevsConsulting/apps/projects/models.py",
+		"/home/bbkmg/Escritorio/AnlyticsProjects/plataforma_principal/v_actual/AnalyticsDevsConsulting/src/core/settings.py",
+		"/home/bbkmg/Escritorio/AnlyticsProjects/plataforma_principal/v_actual/AnalyticsDevsConsulting/apps/contacto/templates/contacto/admin_consultas.html",
+		"/home/bbkmg/Escritorio/AnlyticsProjects/plataforma_principal/v_actual/AnalyticsDevsConsulting/frontend/views.py",
+		"/home/bbkmg/Escritorio/AnlyticsProjects/plataforma_principal/v_actual/AnalyticsDevsConsulting/apps/projects/translation.py",
+		"/home/bbkmg/Escritorio/AnlyticsProjects/plataforma_principal/v_actual/AnalyticsDevsConsulting/src/core/urls.py",
+		"/home/bbkmg/Escritorio/AnlyticsProjects/plataforma_principal/v_actual/AnalyticsDevsConsulting/frontend/templates/frontend/base.html",
+		"/home/bbkmg/Escritorio/AnlyticsProjects/plataforma_principal/v_actual/AnalyticsDevsConsulting/frontend/templates/frontend/projects.html",
+		"/home/bbkmg/Escritorio/AnlyticsProjects/plataforma_principal/v_actual/AnalyticsDevsConsulting/apps/projects/views.py",
+		"/home/bbkmg/Escritorio/AnlyticsProjects/plataforma_principal/v_actual/AnalyticsDevsConsulting/apps/projects/migrations/0002_project_description_en_project_description_es_and_more.py",
+		"/home/bbkmg/Escritorio/AnlyticsProjects/plataforma_principal/v_actual/AnalyticsDevsConsulting/.venv/lib/python3.12/site-packages/django-stubs/db/models/fields/__init__.pyi",
+		"/home/bbkmg/Escritorio/AnlyticsProjects/plataforma_principal/v_actual/AnalyticsDevsConsulting/portafolio_dump.json",
+		"/home/bbkmg/Escritorio/AnlyticsProjects/plataforma_principal/v_actual/AnalyticsDevsConsulting/portafolio_dump_2.json",
+		"/home/bbkmg/Escritorio/AnlyticsProjects/plataforma_principal/v_actual/AnalyticsDevsConsulting/frontend/templates/frontend/ingenieria.html",
+		"/home/bbkmg/Escritorio/AnlyticsProjects/plataforma_principal/v_actual/AnalyticsDevsConsulting/frontend/templates/frontend/proyectos.html",
+		"/home/bbkmg/Escritorio/AnlyticsProjects/plataforma_principal/v_actual/AnalyticsDevsConsulting/frontend/urls.py",
+		"/home/bbkmg/Escritorio/AnlyticsProjects/plataforma_principal/v_actual/AnalyticsDevsConsulting/frontend/templates/frontend/servicios.html",
+		"/home/bbkmg/Escritorio/AnlyticsProjects/plataforma_principal/v_actual/AnalyticsDevsConsulting/frontend/templates/frontend/devs_coe_services.html",
+		"/home/bbkmg/Escritorio/AnlyticsProjects/plataforma_principal/v_actual/AnalyticsDevsConsulting/frontend/templates/frontend/demo.html",
+		"/home/bbkmg/Escritorio/AnlyticsProjects/plataforma_principal/v_actual/AnalyticsDevsConsulting/frontend/templates/frontend/data_coe.html",
+		"/home/bbkmg/Escritorio/AnlyticsProjects/plataforma_principal/v_actual/AnalyticsDevsConsulting/.envNO",
+		"/home/bbkmg/Escritorio/AnlyticsProjects/plataforma_principal/v_actual/AnalyticsDevsConsulting/.dockerignore",
+		"/home/bbkmg/Escritorio/AnlyticsProjects/plataforma_principal/v_actual/AnalyticsDevsConsulting/apps/projects/management/commands/sinc_dump.py",
+		"/home/bbkmg/Escritorio/AnlyticsProjects/plataforma_principal/v_actual/AnalyticsDevsConsulting/.venv/lib/python3.12/site-packages/dotenv/__init__.py",
+		"/home/bbkmg/Escritorio/AnlyticsProjects/plataforma_principal/v_actual/AnalyticsDevsConsulting/apps/contacto/views.py",
+		"/home/bbkmg/Escritorio/AnlyticsProjects/plataforma_principal/v_actual/AnalyticsDevsConsulting/scripts/entrypoint.sh",
+		"/home/bbkmg/Escritorio/AnlyticsProjects/plataforma_principal/v_actual/AnalyticsDevsConsulting/apps/projects/migrations/.NO_UTILIZAR_0002_auto_20260714_2324.py",
+		"/home/bbkmg/Escritorio/AnlyticsProjects/plataforma_principal/v_actual/AnalyticsDevsConsulting/apps/projects/migrations/.MIGRACION_NO_UTILIZADA_0002_seed_initial_projects.py",
+		"/home/bbkmg/Escritorio/AnlyticsProjects/plataforma_principal/v_actual/AnalyticsDevsConsulting/management/commands/sinc_dump.py",
+		"/home/bbkmg/Escritorio/AnlyticsProjects/plataforma_principal/v_actual/AnalyticsDevsConsulting/management/commands/__init__.py",
+		"/home/bbkmg/Escritorio/AnlyticsProjects/plataforma_principal/v_actual/AnalyticsDevsConsulting/management/__init__.py",
+		"/home/bbkmg/Escritorio/AnlyticsProjects/plataforma_principal/v_actual/AnalyticsDevsConsulting/frontend/__init__.py",
+		"/home/bbkmg/Escritorio/AnlyticsProjects/plataforma_principal/v_actual/AnalyticsDevsConsulting/apps/projects/migrations/MIGRACION_NO_UTILIZADA_0002_seed_initial_projects.py",
+		"/home/bbkmg/Escritorio/AnlyticsProjects/plataforma_principal/v_actual/AnalyticsDevsConsulting/apps/projects/migrations/0002_seed_initial_projects.py",
+		"/home/bbkmg/Escritorio/AnlyticsProjects/plataforma_principal/v_actual/AnalyticsDevsConsulting/.venv/lib/python3.12/site-packages/django/db/models/base.py",
+		"/home/bbkmg/Escritorio/AnlyticsProjects/plataforma_principal/v_actual/AnalyticsDevsConsulting/.venv/lib/python3.12/site-packages/django/db/models/__init__.py",
+		"/home/bbkmg/Escritorio/AnlyticsProjects/AnalyticsDevsConsulting/apps/contacto/models.py",
+		"/home/bbkmg/Escritorio/AnlyticsProjects/AnalyticsDevsConsulting/apps/contacto/forms.py",
+		"/home/bbkmg/Escritorio/AnlyticsProjects/AnalyticsDevsConsulting/apps/contacto/views.py",
+		"/home/bbkmg/Escritorio/AnlyticsProjects/AnalyticsDevsConsulting/.venv/lib/python3.12/site-packages/django-stubs/db/models/__init__.pyi",
+		"/home/bbkmg/Escritorio/AnlyticsProjects/AnalyticsDevsConsulting/.venv/lib/python3.12/site-packages/django-stubs/contrib/admin/views/decorators.pyi",
+		"/home/bbkmg/Escritorio/AnlyticsProjects/AnalyticsDevsConsulting/frontend/models.py",
+		"/home/bbkmg/Escritorio/AnlyticsProjects/AnalyticsDevsConsulting/src/core/urls.py",
+		"/home/bbkmg/Escritorio/AnlyticsProjects/ggburger/templates/autent_template.html",
+		"/home/bbkmg/Escritorio/AnlyticsProjects/ggburger/src/apps/autent/urls.py",
+		"/home/bbkmg/Escritorio/AnlyticsProjects/ggburger/src/apps/autent/views.py",
+		"/home/bbkmg/Escritorio/AnlyticsProjects/ggburger/templates/usuario_autenticado_template.html",
+		"/home/bbkmg/Escritorio/AnlyticsProjects/ggburger/src/core/settings.py",
+		"/home/bbkmg/Escritorio/AnlyticsProjects/ggburger/src/apps/autent/models.py",
+		"/home/bbkmg/Escritorio/AnlyticsProjects/ggburger/.venv/lib/python3.12/site-packages/django-stubs/contrib/auth/base_user.pyi",
+		"/home/bbkmg/Escritorio/AnlyticsProjects/ggburger/manage.py",
+		"/home/bbkmg/Escritorio/AnlyticsProjects/ggburger/.venv/lib/python3.12/site-packages/django-stubs/http/request.pyi",
+		"/home/bbkmg/Escritorio/AnlyticsProjects/ggburger/pyproject.toml",
+		"/home/bbkmg/.config/sublime-text/Packages/LocalizedMenu/LocalizedMenu.sublime-settings",
+		"/home/bbkmg/Escritorio/AnlyticsProjects/ggburger/src/core/urls.py",
+		"/home/bbkmg/Escritorio/AnlyticsProjects/ggburger/src/apps/autent/apps.py",
+		"/home/bbkmg/Escritorio/AnlyticsProjects/ggburger/.venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py",
+		"/home/bbkmg/Escritorio/AnlyticsProjects/ggburger/README.md",
+		"/home/bbkmg/Escritorio/django/proyecto-practica/practicaDjango/practicaDjango/settings.py",
+		"/home/bbkmg/Escritorio/django/proyecto-practica/practicaDjango/practicaDjango/urls.py",
+		"/home/bbkmg/Escritorio/django/proyecto-practica/practicaDjango/pruebaModulo/admin.py",
+		"/home/bbkmg/Escritorio/django/proyecto-practica/practicaDjango/pruebaModulo/views.py",
+		"/home/bbkmg/Escritorio/AnalyticsDevsConsulting/AnalyticsDevsConsulting.sublime-project",
+		"/home/bbkmg/Escritorio/django/proyecto-practica/practicaDjango/pruebaModulo/urls.py",
+		"/home/bbkmg/Escritorio/django/proyecto-practica/practicaDjango/templates/formulario.html",
+		"/home/bbkmg/Escritorio/django/proyecto-practica/practicaDjango/practicaDjango/views.py",
+		"/home/bbkmg/Escritorio/django/proyecto-practica/practicaDjango/manage.py",
+		"/home/bbkmg/Escritorio/django/proyecto-practica/practicaDjango/practicaDjango.sublime-project",
+		"/home/bbkmg/Escritorio/django/proyecto-practica/practicaDjango/views.py",
+		"/home/bbkmg/Escritorio/AnalyticsDevsConsulting/src/core/settings.py"
+	],
+	"find":
+	{
+		"height": 31.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"/favicon.ico",
+			"Razón",
+			"nav-link",
+			"STATUS_CHOICES",
+			"ES",
+			"c",
+			"]\n",
+			"null",
+			"En desarrollo",
+			"null",
+			"development",
+			"En",
+			" \",",
+			"desarrollo",
+			"null",
+			"l",
+			"projects.html",
+			"(\"\")",
+			"proyecto_obj",
+			"tech",
+			"projects",
+			"nombre",
+			"    #",
+			"Producción",
+			"            ",
+			"[]",
+			"for",
+			"Mes",
+			"businessChart",
+			"codigo",
+			"PORTAFOLIO",
+			"ingenieria",
+			"block translate",
+			"endblock translate",
+			"block translate",
+			"endblock translate",
+			"block translate",
+			"endblock translate",
+			"block translate",
+			"endblock translate",
+			"block translate",
+			"endblock translate",
+			"block translate",
+			"block translate ",
+			"endblock translate",
+			"block translate",
+			"endblock translate",
+			"block translate",
+			" \"",
+			"de",
+			"translate",
+			" %}",
+			"True",
+			"False"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"blocktranslate",
+			"endblocktranslate",
+			"blocktranslate",
+			"endblocktranslate",
+			"blocktranslate",
+			"endblocktranslate",
+			"blocktranslate",
+			"endblocktranslate",
+			"blocktranslate",
+			"endblocktranslate",
+			"blocktranslate",
+			"endblocktranslate",
+			"blocktranslate",
+			"endblocktranslate",
+			"blocktranslate"
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": true,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "manage.py",
+					"selected": true,
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 804,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html, text.xml"
+								},
+								{
+									"rhs_empty": true,
+									"selector": "punctuation.accessor"
+								},
+								{
+									"characters": ".'\"",
+									"selector": "meta.tag, source - comment - string.quoted.double.block - string.quoted.single.block - string.unquoted.heredoc",
+									"server": "pyrefly"
+								},
+								{
+									"characters": ".[\"'",
+									"selector": "meta.tag, source - comment - string.quoted.double.block - string.quoted.single.block - string.unquoted.heredoc",
+									"server": "LSP-pyright"
+								}
+							],
+							"lsp_active": true,
+							"lsp_uri": "file:///home/bbkmg/Escritorio/mis_proyectos/vomiting_things_prj/manage.py",
+							"show_definitions": false,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 209.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.LSP Log Panel":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"output.diagnostics":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"output.find_results":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"pinned_build_system": "",
+	"project": "vt-prj.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"django.po",
+				"locale/en/LC_MESSAGES/django.po"
+			],
+			[
+				"",
+				".envNO"
+			],
+			[
+				"sinc",
+				"apps/projects/management/commands/sinc_dump.py"
+			],
+			[
+				"forms",
+				"apps/contacto/forms.py"
+			],
+			[
+				"model",
+				"apps/contacto/models.py"
+			],
+			[
+				"form",
+				"apps/contacto/forms.py"
+			],
+			[
+				"models",
+				"apps/contacto/models.py"
+			],
+			[
+				"url",
+				"src/core/urls.py"
+			],
+			[
+				"ma",
+				"manage.py"
+			],
+			[
+				"mana",
+				"manage.py"
+			],
+			[
+				"manage",
+				"manage.py"
+			],
+			[
+				"views",
+				"src/apps/autent/views.py"
+			],
+			[
+				"mode",
+				"src/apps/autent/models.py"
+			],
+			[
+				"settin",
+				"src/core/settings.py"
+			],
+			[
+				"urls",
+				"src/core/urls.py"
+			],
+			[
+				"settins",
+				"src/core/settings.py"
+			],
+			[
+				"apps",
+				"src/apps/autent/apps.py"
+			],
+			[
+				"admin",
+				"pruebaModulo/admin.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"lsp_show_inlay_hints": true
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 267.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
