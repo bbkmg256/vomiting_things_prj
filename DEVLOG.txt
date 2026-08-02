@@ -1,0 +1,14 @@
+[01-08-26]
+
+(HECHO)
+- Se creó el proyecto inicial.
+- Se creo la vista principal del sitio (Falta trabajarla y enlazar los tablones).
+- Se agregó una vista para el formulario de posteo.
+- Por el momento no se almacena el post en la BD.
+- Se creo la aplicacion para los tablones.
+- Se creo la aplicacion para los post.
+
+(PENDIENTE)
+- Se debe  mejorar la estetica (manteniendola retro).
+- Se debe persistir los post.
+- Se crear las vistas para los tablones (temáticas).

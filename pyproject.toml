@@ -1,7 +1,7 @@
 [project]
 name = "vomiting-things-prj"
 version = "0.1.0"
-description = "Add your description here"
+description = "Proyecto de foro 4chan-like"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
@@ -14,4 +14,9 @@ project-includes = [
     "**/*.py*",
     "**/*.ipynb",
 ]
+
+# Ubicacion desde donde debe empezar a indexar dependencias o buscar directorios
 search-path = ["."]
+
+# Ubicación del codigo/logica del proyecto (Para el mapeado de modulos e importaciones locales)
+source-roots = ["src"]

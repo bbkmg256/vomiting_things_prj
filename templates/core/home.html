@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bienvenido a vomiting things!</title>
+</head>
+<body>
+	<header>
+		<div>
+			<a href="{% url 'home_view' %}">/home/</a>
+			<a href="{% url 'tablon_vista' 'v' %}">/v/</a>
+			<a href="">/i/</a>
+			<a href="">/a/</a>
+			<a href="">/tp/</a>
+			<a href="">/b/</a>
+		</div>
+	</header>
+	<div>
+		<p>Bienvenido a vomiting things, el lugar para vomitar tus ideas. Procura respetar los lineamientos y las reglas del sitio, de lo contrario serás bannedo de por vida :(</p>
+	</div>
+
+	<!-- A este div hay que centrarlo xd -->
+	<div>
+		<p>Tablones</p>
+		<ul>
+			<li><a href="{% url 'tablon_vista' 'v' %}">Videojuegos /v/</a></li>
+			<li>Internet /i/</li>
+			<li>Animé /a/</li>
+			<li>Tecnología y Programación /tp/</li>
+			<li>Random /b/</li>
+		</ul>
+	</div>
+</body>
+</html>
