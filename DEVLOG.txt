@@ -1,3 +1,21 @@
+[02-08-26]
+
+(HECHO)
+- El tablón /v/ de videojuegos ya está precariamente funcional.
+- Los post ahora se persisten.
+- Se solucionó un problema con los saltos de linea en los post.
+
+(PENDIENTE)
+- Se debe  mejorar la estetica (manteniendola retro).
+- Se debe crear el sistema de sub-post o comentarios de post.
+- Mejorar la validación de entradas de datos para los post (Así no vuela todo a la mierda :|)
+- Hay que CENTRAR LOS DIVS >:|
+- Lo mas probable es que se tenga que crear un esquema de como está conformado el foro, por el tema de urls y eso que es un lio acá.
+- Crear plantillas (Templates) base, hay cosas que se repiten que se pueden reutilizar.
+- Arreglar la zona horaria para los posts (está en UTC pero parece que no aplica la suma o resta de zona)
+
+---
+
 [01-08-26]
 
 (HECHO)

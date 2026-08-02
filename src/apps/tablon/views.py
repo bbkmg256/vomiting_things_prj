@@ -8,7 +8,12 @@ from src.apps.posts.models import Post
 def tablon_vista(request, simbolo):
     match simbolo:
         case "v":
-            post_data = Post.objects.filter(tablon=1)
+            # Se ordena el queryset por fecha de publicación
+            post_data = Post.objects.filter(tablon=1).order_by(
+                # El - (guión) le dice a django que la organizacion será de forma descendente
+                "-fecha_publicacion",
+                "-hora_publicacion",
+            )
             context = {"post_data": post_data}
             return render(request, "tablon/videojuegos.html", context)
         case "i":

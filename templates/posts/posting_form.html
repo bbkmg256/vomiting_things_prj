@@ -10,11 +10,15 @@
 	<form action="{% url 'posting_form' simbolo=simbolo %}" method="POST">
 		{% csrf_token %}
 		<div>
-			<p>Titulo</p><input type="text" name="titulo_post">
+			<p>Titulo</p>
+			<input type="text" name="titulo_post">
 			<br>
-			<p>Contenido</p><textarea rows="10" cols="50" name="contenido_post"></textarea>
+			<p>Contenido</p>
+			<textarea rows="10" cols="50" name="contenido_post"></textarea>
 		</div>
-		<input type="submit" name="post_button" value="Vomitar">
+		<input type="submit" name="post_boton" value="Vomitar">
+		<!-- Nose si es necesario un -->
+		<input type="submit" name="cancelar_boton" value="Cancelar">
 	</form>
 </body>
 </html>

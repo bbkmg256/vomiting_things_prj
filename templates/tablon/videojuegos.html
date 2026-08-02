@@ -23,14 +23,17 @@
 		<!-- Esto manda a la template de posteo -->
 		<h1><a href="{% url 'posting_view' simbolo='v' %}">[Vomitar]</a></h1>
 	</div>
+	<br>
 
 	<!-- Contiene a la lista de posteos -->
 	<div>
 		{% for post in post_data %}
-		<h3>{{ post.titulo }}</h3>
+		<div>
+			<h2>{{ post.titulo }}</h2>
+			<p>[Fecha: {{ post.fecha_publicacion }} - Hora: {{ post.hora_publicacion }}]</p>
+		</div>
 		<!-- Filtro para traducir saltos de linea a etiquetas br -->
 		<p>{{ post.contenido|linebreaks }}</p>
-		<p>Fecha: {{ post.fecha_publicacion }}</p>
 		<br>
 		{% endfor %}
 	</div>

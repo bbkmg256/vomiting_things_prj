@@ -10,6 +10,7 @@ class Post(models.Model):
     titulo = models.CharField(max_length=60, null=False)
     contenido = models.TextField(null=False)
     fecha_publicacion = models.DateField(default=timezone.localdate)
+    hora_publicacion = models.TimeField(default=timezone.localtime)
     # Tablon/topico al que pertenece
     tablon = models.ForeignKey(Tablon, on_delete=models.CASCADE)
 
