@@ -28,7 +28,8 @@
 	<div>
 		{% for post in post_data %}
 		<h3>{{ post.titulo }}</h3>
-		<p>{{ post.contenido }}</p>
+		<!-- Filtro para traducir saltos de linea a etiquetas br -->
+		<p>{{ post.contenido|linebreaks }}</p>
 		<p>Fecha: {{ post.fecha_publicacion }}</p>
 		<br>
 		{% endfor %}
