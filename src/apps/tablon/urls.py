@@ -4,6 +4,5 @@ from . import views
 
 urlpatterns = [
     path("tablon/<str:simbolo>/", views.tablon_vista, name="tablon_vista"),
-    # path("tablon/<str:simbolo>/post/<int:id>"),
-    # path("tablon/<str:simbolo>/post/nuevo/"),
+    path("tablon/<str:simbolo>/", include("src.apps.posts.urls")),
 ]

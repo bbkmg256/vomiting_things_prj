@@ -6,9 +6,22 @@
 	<title>/v/ Videojuegos</title>
 </head>
 <body>
+	<header>
+		<div>
+			<a href="{% url 'home_view' %}">/home/</a>
+			<a href="{% url 'tablon_vista' simbolo='v' %}">/v/</a>
+			<a href="">/i/</a>
+			<a href="">/a/</a>
+			<a href="">/tp/</a>
+			<a href="">/b/</a>
+		</div>
+	</header>
+	
+	<br>
+
 	<div>
 		<!-- Esto manda a la template de posteo -->
-		<h1><a href="">[Vomitar]</a></h1>
+		<h1><a href="{% url 'posting_view' simbolo='v' %}">[Vomitar]</a></h1>
 	</div>
 
 	<!-- Contiene a la lista de posteos -->
