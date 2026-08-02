@@ -18,8 +18,8 @@ def posting_form(request, simbolo):
     if request.method == "POST":
         # Hay que verificar que los campos no estén vacíos
         if not request.POST["titulo_post"].strip():
-            print("xd")
-            return redirect("posting_view", simbolo=simbolo)
+            print("LOG: Datos vacios")
+            return redirect("tablon_vista", simbolo)
         # LOG para visualizar los post
         print(f"{request.POST['titulo_post']}\n{request.POST['contenido_post']}")
         # Redireciona a la vista del post
