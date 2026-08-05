@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>/v/ Videojuegos</title>
+	<title>/v/ Videojuegos - Vomiting Things</title>
 </head>
 <body>
 	<header>
@@ -18,22 +18,48 @@
 	</header>
 	
 	<br>
-
+	
+	<!-- Centrar esto -->
 	<div>
-		<!-- Esto manda a la template de posteo -->
-		<h1><a href="{% url 'posting_view' simbolo='v' %}">[Vomitar]</a></h1>
+		<h1>[/v/ Videojuegos]</h1>
+		<!-- Tengo una idea para hacer que aparezcan frases al azar referidas al tablón (mas adelante... mas adelante) -->
+		<p>pew pew! ;)</p>
 	</div>
+
 	<br>
 
+	<!-- Contenido que no se usa -->
+	{% comment %}
+	<!--
+	<div>
+		Esto manda a la template de posteo
+		<h1><a href="{% url 'posting_view' simbolo='v' %}">[Vomitar]</a></h1>
+	</div>
+	-->
+	<!-- Inyecta el formulario para postear -->
+	<p>Simbolo -> {{ simb }}</p>
+	{% endcomment %}
+
+	<!-- Formulario para postear -->
+	<div>
+		{% include "posts/posting_form.html" with simbolo=simb %}
+	</div>
+
+	<br>
+
+	<!-- Esto creo que también se puede compactar en alguna otra plantilla para reutilizar -->
 	<!-- Contiene a la lista de posteos -->
 	<div>
 		{% for post in post_data %}
 		<div>
 			<h2>{{ post.titulo }}</h2>
-			<p>[Fecha: {{ post.fecha_publicacion }} - Hora: {{ post.hora_publicacion }}]</p>
+			<p>[Id post: {{ post.id }} - Fecha: {{ post.fecha_publicacion }} - Hora: {{ post.hora_publicacion }}]</p>
 		</div>
 		<!-- Filtro para traducir saltos de linea a etiquetas br -->
 		<p>{{ post.contenido|linebreaks }}</p>
+		{% if post.id != post_data.last.id %}
+		<hr>
+		{% endif %}
 		<br>
 		{% endfor %}
 	</div>
