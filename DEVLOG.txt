@@ -1,3 +1,14 @@
+[05-08-26]
+
+(HECHO)
+- Solucionado problema con el input text del titulo de post, ahora no se sube el posteo al presionar enter.
+- Agregado divisores de contenido para hacer diferencia de inicio y fin de post.
+
+(PENDIENTE)
+...
+
+---
+
 [02-08-26]
 
 (HECHO)

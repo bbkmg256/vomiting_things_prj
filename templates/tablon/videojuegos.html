@@ -47,6 +47,7 @@
 
 	<br>
 
+	<!-- Esto creo que también se puede compactar en alguna otra plantilla para reutilizar -->
 	<!-- Contiene a la lista de posteos -->
 	<div>
 		{% for post in post_data %}
@@ -56,6 +57,9 @@
 		</div>
 		<!-- Filtro para traducir saltos de linea a etiquetas br -->
 		<p>{{ post.contenido|linebreaks }}</p>
+		{% if post.id != post_data.last.id %}
+		<hr>
+		{% endif %}
 		<br>
 		{% endfor %}
 	</div>

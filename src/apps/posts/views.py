@@ -21,7 +21,7 @@ def posting_form(request, simbolo):
             print("LOG: Datos vacios")
             return redirect("tablon_vista", simbolo)
         # LOG para visualizar los post
-        print(f"{request.POST['titulo_post']}\n{request.POST['contenido_post']}")
+        # print(f"{request.POST['titulo_post']}\n{request.POST['contenido_post']}")
         # Redireciona a la vista del post
         match simbolo:
             case "v":
@@ -30,7 +30,8 @@ def posting_form(request, simbolo):
                     contenido=request.POST["contenido_post"],
                     tablon=Tablon.objects.get(id=1),
                 )
-                Nuevo_post.save()
+                # No hace falta por que el metodo create ya lo persiste
+                # Nuevo_post.save()
                 return redirect("tablon_vista", simbolo)
             case _:
                 return HttpResponse("404")
