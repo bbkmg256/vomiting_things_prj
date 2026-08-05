@@ -1,3 +1,14 @@
+[05-08-26]
+
+(HECHO)
+- Solucionado problema con el input text del titulo de post, ahora no se sube el posteo al presionar enter.
+- Agregado divisores de contenido para hacer diferencia de inicio y fin de post.
+
+(PENDIENTE)
+...
+
+---
+
 [02-08-26]
 
 (HECHO)
@@ -13,6 +24,7 @@
 - Lo mas probable es que se tenga que crear un esquema de como está conformado el foro, por el tema de urls y eso que es un lio acá.
 - Crear plantillas (Templates) base, hay cosas que se repiten que se pueden reutilizar.
 - Arreglar la zona horaria para los posts (está en UTC pero parece que no aplica la suma o resta de zona)
+- Se debe modificar el input "text" del formulario de posteo, ya que al presionar enter el contenido del formulario se envía (y no queremos eso realmente).
 
 ---
 

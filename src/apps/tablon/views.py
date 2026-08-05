@@ -14,7 +14,10 @@ def tablon_vista(request, simbolo):
                 "-fecha_publicacion",
                 "-hora_publicacion",
             )
-            context = {"post_data": post_data}
+            # print(type(post_data))
+            # print(len(post_data))
+            # print(post_data.first().id)
+            context = {"post_data": post_data, "simb": simbolo}
             return render(request, "tablon/videojuegos.html", context)
         case "i":
             return HttpResponse("Todavía en desarrollo, vuelva más tarde")
