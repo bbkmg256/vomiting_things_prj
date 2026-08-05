@@ -3,9 +3,11 @@
 (HECHO)
 - Solucionado problema con el input text del titulo de post, ahora no se sube el posteo al presionar enter.
 - Agregado divisores de contenido para hacer diferencia de inicio y fin de post.
+- Se agregó el id del post en los post (XD)
 
 (PENDIENTE)
-...
+- Funcionalidades para los comentarios
+- Mover el bucle de los post a otra template paa inyectarlos en las templates que lo requieran (así no se repite codigo y se mantiene una uniformidad de diseño)
 
 ---
 
