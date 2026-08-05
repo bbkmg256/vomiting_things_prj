@@ -2,7 +2,7 @@ from django.http import HttpResponse
 from django.shortcuts import render
 
 # from .models import Tablon
-from apps.posts.models import Post
+from src.apps.posts.models import Post
 
 
 def tablon_vista(request, simbolo):
@@ -14,10 +14,7 @@ def tablon_vista(request, simbolo):
                 "-fecha_publicacion",
                 "-hora_publicacion",
             )
-            # print(type(post_data))
-            # print(len(post_data))
-            # print(post_data.first().id)
-            context = {"post_data": post_data, "simb": simbolo}
+            context = {"post_data": post_data}
             return render(request, "tablon/videojuegos.html", context)
         case "i":
             return HttpResponse("Todavía en desarrollo, vuelva más tarde")

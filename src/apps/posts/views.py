@@ -1,8 +1,8 @@
 from django.http import HttpResponse
 from django.shortcuts import redirect, render
 
-from apps.posts.models import Post
-from apps.tablon.models import Tablon
+from src.apps.posts.models import Post
+from src.apps.tablon.models import Tablon
 
 
 # Vista del template para postear
@@ -18,10 +18,10 @@ def posting_form(request, simbolo):
     if request.method == "POST":
         # Hay que verificar que los campos no estén vacíos
         if not request.POST["titulo_post"].strip():
-            print("LOG: Datos vacios")
-            return redirect("tablon_vista", simbolo)
+            print("xd")
+            return redirect("posting_view", simbolo=simbolo)
         # LOG para visualizar los post
-        # print(f"{request.POST['titulo_post']}\n{request.POST['contenido_post']}")
+        print(f"{request.POST['titulo_post']}\n{request.POST['contenido_post']}")
         # Redireciona a la vista del post
         match simbolo:
             case "v":
@@ -30,8 +30,7 @@ def posting_form(request, simbolo):
                     contenido=request.POST["contenido_post"],
                     tablon=Tablon.objects.get(id=1),
                 )
-                # No hace falta por que el metodo create ya lo persiste
-                # Nuevo_post.save()
+                Nuevo_post.save()
                 return redirect("tablon_vista", simbolo)
             case _:
                 return HttpResponse("404")

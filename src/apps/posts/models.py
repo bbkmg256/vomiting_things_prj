@@ -1,7 +1,7 @@
 from django.db import models
 from django.utils import timezone
 
-from apps.tablon.models import Tablon
+from src.apps.tablon.models import Tablon
 
 
 # Clase para los posteos
