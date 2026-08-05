@@ -1,8 +1,8 @@
 from django.http import HttpResponse
 from django.shortcuts import redirect, render
 
-from src.apps.posts.models import Post
-from src.apps.tablon.models import Tablon
+from apps.posts.models import Post
+from apps.tablon.models import Tablon
 
 
 # Vista del template para postear

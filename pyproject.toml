@@ -16,7 +16,7 @@ project-includes = [
 ]
 
 # Ubicacion desde donde debe empezar a indexar dependencias o buscar directorios
-search-path = ["."]
+search-path = [".", "src"]
 
 # Ubicación del codigo/logica del proyecto (Para el mapeado de modulos e importaciones locales)
 source-roots = ["src"]
