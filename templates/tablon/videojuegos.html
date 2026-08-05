@@ -40,28 +40,15 @@
 	<p>Simbolo -> {{ simb }}</p>
 	{% endcomment %}
 
+	<!-- Capas al div lo incluya dentro de la misma plantilla del formulario, en vez de tenerlo acá -->
 	<!-- Formulario para postear -->
 	<div>
-		{% include "posts/posting_form.html" with simbolo=simb %}
+		{% include "posts/posting_form.html" with simbolo_data=simb %}
 	</div>
 
 	<br>
 
-	<!-- Esto creo que también se puede compactar en alguna otra plantilla para reutilizar -->
-	<!-- Contiene a la lista de posteos -->
-	<div>
-		{% for post in post_data %}
-		<div>
-			<h2>{{ post.titulo }}</h2>
-			<p>[Id post: {{ post.id }} - Fecha: {{ post.fecha_publicacion }} - Hora: {{ post.hora_publicacion }}]</p>
-		</div>
-		<!-- Filtro para traducir saltos de linea a etiquetas br -->
-		<p>{{ post.contenido|linebreaks }}</p>
-		{% if post.id != post_data.last.id %}
-		<hr>
-		{% endif %}
-		<br>
-		{% endfor %}
-	</div>
+	<!-- Lista de posteos -->
+	{% include "posts/post_list.html" with post_list=post_data %}
 </body>
 </html>

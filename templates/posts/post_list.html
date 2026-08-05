@@ -1,0 +1,16 @@
+<!-- Esto creo que también se puede compactar en alguna otra plantilla para reutilizar -->
+<!-- Contiene a la lista de posteos -->
+<div>
+	{% for post in post_list %}
+	<div>
+		<h2>{{ post.titulo }}</h2>
+		<p>[Id post: {{ post.id }} - Fecha: {{ post.fecha_publicacion }} - Hora: {{ post.hora_publicacion }}]</p>
+	</div>
+	<!-- Filtro para traducir saltos de linea a etiquetas br -->
+	<p>{{ post.contenido|linebreaks }}</p>
+	{% if post.id != post_list.last.id %}
+	<hr>
+	{% endif %}
+	<br>
+	{% endfor %}
+</div>
