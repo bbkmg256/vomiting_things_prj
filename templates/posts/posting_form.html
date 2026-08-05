@@ -4,13 +4,20 @@
 <form action="{% url 'posting_form' simbolo=simb %}" method="POST" onkeydown="if(event.key === 'Enter') event.preventDefault();">
 	{% csrf_token %}
 	<div>
-		<p>Título <input type="text" name="titulo_post"></p>
+		<p>
+			<div>
+				- Título - 
+			</div>
+			<div>
+				<input type="text" name="titulo_post">
+			</div>
+		</p>
 
 		<p>
 			<!-- Centrar esta mierda -->
 			<div>
 				<div>
-					Contenido
+					- Contenido -
 				</div>
 				<div>
 					<textarea rows="10" cols="50" name="contenido_post"></textarea>	
