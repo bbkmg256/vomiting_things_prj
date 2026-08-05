@@ -1,7 +1,7 @@
 
 <!-- Esta mierda hay que mejorarla, no me acuerdo mucho html -->
 																	<!-- Esto tiene codigo Js para deshabilitar la subidad el form al presionar la tecla "Enter" -->
-<form action="{% url 'posting_form' simbolo=simb %}" method="POST" onkeydown="if(event.key === 'Enter') event.preventDefault();">
+<form action="{% url 'posting_form' simbolo=simbolo_data %}" method="POST" onkeydown="if(event.key === 'Enter') event.preventDefault();">
 	{% csrf_token %}
 	<div>
 		<p>
