@@ -2,5 +2,5 @@ from django.apps import AppConfig
 
 
 class PostsConfig(AppConfig):
-    name = "apps.posts"
+    name = "src.apps.posts"
     label = "posts_app"
