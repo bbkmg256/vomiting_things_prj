@@ -2,7 +2,7 @@ from django.http import HttpResponse
 from django.shortcuts import render
 
 # from .models import Tablon
-from src.apps.posts.models import Post
+from apps.posts.models import Post
 
 
 def tablon_vista(request, simbolo):
