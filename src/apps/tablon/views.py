@@ -14,6 +14,20 @@ def tablon_vista(request, simbolo):
                 "-fecha_publicacion",
                 "-hora_publicacion",
             )
+
+            """
+            Esta consulta trae los items realizando un filtrado y generando un campo especifico que agrupa el numero de objetos que tiene relacionado cada objeto del modelo especifo.
+            """
+            # post_data = (
+            #     Post.objects.filter(tablon=1)
+            #     .annotate(total_respuestas="comentario_set")
+            #     .order_by(
+            #         # El - (guión) le dice a django que la organizacion será de forma descendente
+            #         "-fecha_publicacion",
+            #         "-hora_publicacion",
+            #     )
+            # )
+
             # print(type(post_data))
             # print(len(post_data))
             # print(post_data.first().id)

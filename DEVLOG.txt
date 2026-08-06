@@ -7,7 +7,7 @@
 - Se extrajo el segmento que muestra la lista de post en un tablon, y se lo almaceno en otra template, ahora es reutilizable en diferentes tablones.
 
 (PENDIENTE)
-- Funcionalidades para los comentarios (MUCHO MUY IMPORTANTE!)
+- Funcionalidades para los comentarios (MUCHO MUY IMPORTANTE!) (ESTO SE ENCUENTRA REALIZADO A MEDIAS, POR EL MOMENTO)
 
 ---
 

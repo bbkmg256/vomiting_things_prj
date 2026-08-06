@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Hay que agregar el numero de post acá -->
+	<title>/{{ simb }}/ - Vomiting Things!</title>
+</head>
+<body>
+	{% include "core/header_links.html" %}
+
+	<br>
+
+	<!-- Segmento donde irían todas las respuestas/comentarios del post principal -->
+	<div>
+		<p>Segmento para el formulario de respuesta al post</p>
+	</div>
+
+	<br>
+	
+	<h1>{{ post.titulo }}</h1>
+	<p>[Id post: {{ post.id }} - Fecha: {{ post.fecha_publicacion }} - Hora: {{ post.hora_publicacion }}]</p>
+	<p>{{post.contenido}}</p>
+	<hr>
+	<br>
+	
+	<!-- Segmento donde irían todas las respuestas/comentarios del post principal -->
+	<p>Segmento para las respuestas al post principal</p>
+</body>
+</html>

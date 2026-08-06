@@ -15,5 +15,9 @@ class Post(models.Model):
     tablon = models.ForeignKey(Tablon, on_delete=models.CASCADE)
 
 
-# Crear clase para los comentarios
-# ...
+# Clase para los comentarios
+class Comentario(models.Model):
+    id = models.BigAutoField(primary_key=True)
+    contenido = models.TextField(null=False)
+    # Post al que pertenece el comentario
+    post = models.ForeignKey(Post, on_delete=models.CASCADE)

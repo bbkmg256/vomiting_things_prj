@@ -6,16 +6,7 @@
 	<title>/v/ Videojuegos - Vomiting Things</title>
 </head>
 <body>
-	<header>
-		<div>
-			<a href="{% url 'home_view' %}">/home/</a>
-			<a href="{% url 'tablon_vista' simbolo='v' %}">/v/</a>
-			<a href="">/i/</a>
-			<a href="">/a/</a>
-			<a href="">/tp/</a>
-			<a href="">/b/</a>
-		</div>
-	</header>
+	{% include "core/header_links.html" %}
 	
 	<br>
 	
@@ -49,6 +40,6 @@
 	<br>
 
 	<!-- Lista de posteos -->
-	{% include "posts/post_list.html" with post_list=post_data %}
+	{% include "posts/post_list.html" with post_list=post_data simbolo_data=simb %}
 </body>
 </html>

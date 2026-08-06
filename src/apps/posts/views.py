@@ -5,6 +5,17 @@ from apps.posts.models import Post
 from apps.tablon.models import Tablon
 
 
+# Vista del post
+def post_view(request, simbolo, id_post):
+    try:
+        post = Post.objects.get(id=id_post)
+        context = {"post": post, "simb": simbolo}
+        return render(request, "posts/post.html", context)
+    except Exception as e:
+        print(f"{e}")
+        return HttpResponse("404")
+
+
 # Vista del template para postear
 def posting_view(request, simbolo):
     context = {"simbolo": simbolo}

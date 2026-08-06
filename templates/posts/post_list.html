@@ -4,10 +4,16 @@
 	{% for post in post_list %}
 	<div>
 		<h2>{{ post.titulo }}</h2>
+
+		<!-- Sería buena idea agregar el número de respuestas del post acá -->
 		<p>[Id post: {{ post.id }} - Fecha: {{ post.fecha_publicacion }} - Hora: {{ post.hora_publicacion }}]</p>
 	</div>
 	<!-- Filtro para traducir saltos de linea a etiquetas br -->
 	<p>{{ post.contenido|linebreaks }}</p>
+
+	<!-- Acá tiene que ir la vista que visualiza  -->
+	<a href="{% url 'post_view' simbolo=simbolo_data id_post=post.id %}">[Abrir post...]</a>
+
 	{% if post.id != post_list.last.id %}
 	<hr>
 	{% endif %}
