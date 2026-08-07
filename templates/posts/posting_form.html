@@ -1,7 +1,5 @@
-
 <!-- Esta mierda hay que mejorarla, no me acuerdo mucho html -->
-																	<!-- Esto tiene codigo Js para deshabilitar la subidad el form al presionar la tecla "Enter" -->
-<form action="{% url 'posting_form' simbolo=simbolo_data %}" method="POST" onkeydown="if(event.key === 'Enter') event.preventDefault();">
+<form action="{% url 'posting_form' simbolo=simbolo_data %}" method="POST">
 	{% csrf_token %}
 	<div>
 		<p>
@@ -9,7 +7,8 @@
 				- Título - 
 			</div>
 			<div>
-				<input type="text" name="titulo_post">
+				<!-- Esto tiene codigo Js para deshabilitar la subidad el form al presionar la tecla "Enter" -->
+				<input type="text" name="titulo_post" onkeydown="if(event.key === 'Enter') event.preventDefault();">
 			</div>
 		</p>
 

@@ -19,5 +19,7 @@ class Post(models.Model):
 class Comentario(models.Model):
     id = models.BigAutoField(primary_key=True)
     contenido = models.TextField(null=False)
+    fecha_publicacion = models.DateField(default=timezone.localdate)
+    hora_publicacion = models.TimeField(default=timezone.localtime)
     # Post al que pertenece el comentario
     post = models.ForeignKey(Post, on_delete=models.CASCADE)

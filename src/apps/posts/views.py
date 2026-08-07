@@ -3,13 +3,15 @@ from django.shortcuts import redirect, render
 
 from apps.posts.models import Post
 from apps.tablon.models import Tablon
+from apps.posts.models import Comentario
 
 
 # Vista del post
 def post_view(request, simbolo, id_post):
     try:
         post = Post.objects.get(id=id_post)
-        context = {"post": post, "simb": simbolo}
+        comens = Comentario.objects.filter(post=post)
+        context = {"post": post, "comens": comens, "simb": simbolo}
         return render(request, "posts/post.html", context)
     except Exception as e:
         print(f"{e}")
@@ -22,12 +24,22 @@ def posting_view(request, simbolo):
     return render(request, "posts/posting_form.html", context)
 
 
-# NOTA:
-# - El redireccionamiento acá tiene que ser condicionado para que redirija al post publicado
 # Vista para el formulario para postear
 def posting_form(request, simbolo):
+    # Diccionario de tablones
+    # direc_tabs = {"v": 1}
+    """
+    ^ Este diccionario serviría para comprobar la direccion de procedencia del formulario,
+    de modo que al cargar el post y redireccionar al tablon, se sepa con que tablon tratar.
+    La idea es tratar de no repetir tanto codigo en el match de mas abajo, y resumir el fragmento
+    de creacion del post (osea, la carga a BD) a una sola sentencia, donde el id del tablon al que
+    se lo quiera asociar, se vea determinado por el diccionario...
+    Por el momento se deja para mas adelante.
+    """
+
+    # Para omitir peticiones que vengan por otro metodo
     if request.method == "POST":
-        # Hay que verificar que los campos no estén vacíos
+        # Verifica que el posteo contenga al menos el título
         if not request.POST["titulo_post"].strip():
             print("LOG: Datos vacios")
             return redirect("tablon_vista", simbolo)
@@ -36,7 +48,8 @@ def posting_form(request, simbolo):
         # Redireciona a la vista del post
         match simbolo:
             case "v":
-                Nuevo_post = Post.objects.create(
+                # Crea el nuevo post
+                Post.objects.create(
                     titulo=request.POST["titulo_post"],
                     contenido=request.POST["contenido_post"],
                     tablon=Tablon.objects.get(id=1),
@@ -46,4 +59,17 @@ def posting_form(request, simbolo):
                 return redirect("tablon_vista", simbolo)
             case _:
                 return HttpResponse("404")
-    return HttpResponse("Mal :(")
+    return HttpResponse("404")
+
+
+# Vista para el form de respuesta de post
+def response_posting_form(request, simbolo, id_post):
+    if request.method == "POST":
+        # Por el momento se admiten respuestas vacias xd
+        # Crea una respuesta/comentario para un post
+        Comentario.objects.create(
+            contenido=request.POST["contenido_post"], post=Post.objects.get(id=id_post)
+        )
+        print("LOG: Comentario creado!")
+        return redirect("post_view", simbolo, id_post)
+    return HttpResponse("404")
