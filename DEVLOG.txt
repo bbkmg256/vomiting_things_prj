@@ -1,3 +1,15 @@
+[07-08-26]
+
+(HECHO)
+- Se agregaron la seccion de comentarios en los post.
+- Se agregó un botón de regreso en las paginas de visualizacion de post.
+
+(PENDIENTE)
+- Crear la seccion de noticias para ir cargando avances respecto al desarrollo del foro y  otras cuestiones.
+- Modificar el template del tablon de videojuegos para reutilizarlo como vista generica de tablon.
+
+---
+
 [05-08-26]
 
 (HECHO)

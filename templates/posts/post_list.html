@@ -5,8 +5,7 @@
 	<div>
 		<h2>{{ post.titulo }}</h2>
 
-		<!-- Sería buena idea agregar el número de respuestas del post acá -->
-		<p>[Id post: {{ post.id }} - Fecha: {{ post.fecha_publicacion }} - Hora: {{ post.hora_publicacion }}]</p>
+		<p>[Id post: {{ post.id }} - Fecha: {{ post.fecha_publicacion }} - Hora: {{ post.hora_publicacion }} - Respuestas: {{ post.total_respuestas }}]</p>
 	</div>
 	<!-- Filtro para traducir saltos de linea a etiquetas br -->
 	<p>{{ post.contenido|linebreaks }}</p>
